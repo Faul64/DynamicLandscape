@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyDynamicLandscape",
+			"Path": "D:\\Work\\UE5\\DynamicLandscape\\Source\\MyDynamicLandscape.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyDynamicLandscapeEditor",
+			"Path": "D:\\Work\\UE5\\DynamicLandscape\\Source\\MyDynamicLandscapeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
