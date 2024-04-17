@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\inc\\mydynamiclandscape\\uht\\mydynamiclandscape.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\mydynamiclandscapeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\development\\mydynamiclandscape\\definitions.mydynamiclandscape.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

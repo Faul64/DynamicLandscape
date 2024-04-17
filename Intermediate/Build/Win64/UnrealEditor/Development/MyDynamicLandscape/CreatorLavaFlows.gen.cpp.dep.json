@@ -6,7 +6,9 @@
         "PCH": "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\mydynamiclandscapeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
             "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\development\\mydynamiclandscape\\definitions.mydynamiclandscape.h",
-            "d:\\work\\ue5\\dynamiclandscape\\source\\mydynamiclandscape\\creatorlavaflows.h",
+            "d:\\work\\ue5\\dynamiclandscape\\source\\mydynamiclandscape\\public\\creatorlavaflows.h",
+            "d:\\work\\ue5\\dynamiclandscape\\source\\mydynamiclandscape\\public\\lavaparticle.h",
+            "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\inc\\mydynamiclandscape\\uht\\lavaparticle.generated.h",
             "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\inc\\mydynamiclandscape\\uht\\creatorlavaflows.generated.h"
         ],
         "ImportedModules": [],

@@ -1,5 +1,6 @@
-D:\Work\UE5\DynamicLandscape\Source\MyDynamicLandscape\CreatorLavaFlows.cpp
+D:\Work\UE5\DynamicLandscape\Source\MyDynamicLandscape\Private\CreatorLavaFlows.cpp
 /I .
+/I D:\Work\UE5\DynamicLandscape\Source\MyDynamicLandscape\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I Runtime
 /I ..\Shaders\Shared
@@ -271,6 +272,7 @@ D:\Work\UE5\DynamicLandscape\Source\MyDynamicLandscape\CreatorLavaFlows.cpp
 /I Developer\AnimationDataController\Public
 /I D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Inc\MyDynamicLandscape\UHT
 /I D:\Work\UE5\DynamicLandscape\Source
+/I D:\Work\UE5\DynamicLandscape\Source\MyDynamicLandscape\Public
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
