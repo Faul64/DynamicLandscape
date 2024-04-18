@@ -20,33 +20,41 @@ public:
 	ACreatorLavaFlows();
 
 //TODO: https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/GameplayArchitecture/Properties/
-	UPROPERTY()	// (VisibleDefaultsOnly, Category = "Starting Parameters")
-	class UArrowComponent* StartFlowDirection;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//	UBillboardComponent* Icon;
 
-	UPROPERTY(EditAnywhere)
-	UBillboardComponent* Icon;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
+		class UArrowComponent* StartFlowDirection;
 
-	UPROPERTY(EditAnywhere, Category = "Starting Parameters")
-	float StartPulsePower = 5.0f;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		//TArray<ALavaParticle> ParticlArray; //int32 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
+		FVector2D ParticleMassRange		{ 1.0, 2.0 };
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
+		FVector2D StartPulsePowerRange	{ 1.0, 2.0 };
 
-	UPROPERTY(EditAnywhere, Category = "Starting Parameters")
-	float NumberParticles = 5.0f;
-	UPROPERTY(EditAnywhere, Category = "Starting Parameters")
-	float CreationTime = 5.0f;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
+	//	double NumberParticles = 5.0;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
+	//	double CreationTime = 5.0;
 
 
-	TArray<ALavaParticle> ParticlArray;
 
-	// foo calculate all count
+//#pragma region CalculateAllParameters
+
+	UFUNCTION(BlueprintCallable, Category = "LavaFlows")
+		void UpdateAcceleration(ALavaParticle* Particle);
+	UFUNCTION(BlueprintCallable, Category = "LavaFlows")
+		void UpdateVelocity(ALavaParticle* Particle, float DeltaTime);
+	UFUNCTION(BlueprintCallable, Category = "LavaFlows")
+		bool UpdateLocation(ALavaParticle* Particle, float DeltaTime);
+
+//#pragma endregion CalculateAllParameters
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-	//void UpdateParticles() override;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 };

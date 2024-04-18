@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\inc\\mydynamiclandscape\\uht\\lavaparticle.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\mydynamiclandscapeeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\development\\mydynamiclandscape\\definitions.mydynamiclandscape.h",
+            "d:\\work\\ue5\\dynamiclandscape\\source\\mydynamiclandscape\\public\\lavaparticle.h",
+            "d:\\work\\ue5\\dynamiclandscape\\intermediate\\build\\win64\\unrealeditor\\inc\\mydynamiclandscape\\uht\\lavaparticle.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeLavaParticle() {}
 // Cross Module References
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	MYDYNAMICLANDSCAPE_API UClass* Z_Construct_UClass_ALavaParticle();
@@ -33,6 +34,22 @@ void EmptyLinkFunctionForGeneratedCodeLavaParticle() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Mass_MetaData[];
+#endif
+		static const UECodeGen_Private::FDoublePropertyParams NewProp_Mass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SumForces_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_SumForces;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Acceleration_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Acceleration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Velocity_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Velocity;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -50,15 +67,45 @@ void EmptyLinkFunctionForGeneratedCodeLavaParticle() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "LavaParticle" },
-		{ "Comment", "// TODO: 1 \n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/LavaParticle.h" },
-		{ "ToolTip", "TODO: 1" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ALavaParticle, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mesh_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mass_MetaData[] = {
+		{ "Category", "Particle Parameters" },
+		{ "ModuleRelativePath", "Public/LavaParticle.h" },
+	};
+#endif
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mass = { "Mass", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ALavaParticle, Mass), METADATA_PARAMS(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALavaParticle_Statics::NewProp_SumForces_MetaData[] = {
+		{ "Category", "Particle Parameters" },
+		{ "ModuleRelativePath", "Public/LavaParticle.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALavaParticle_Statics::NewProp_SumForces = { "SumForces", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ALavaParticle, SumForces), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ALavaParticle_Statics::NewProp_SumForces_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALavaParticle_Statics::NewProp_SumForces_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALavaParticle_Statics::NewProp_Acceleration_MetaData[] = {
+		{ "Category", "Particle Parameters" },
+		{ "ModuleRelativePath", "Public/LavaParticle.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALavaParticle_Statics::NewProp_Acceleration = { "Acceleration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ALavaParticle, Acceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Acceleration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Acceleration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALavaParticle_Statics::NewProp_Velocity_MetaData[] = {
+		{ "Category", "Particle Parameters" },
+		{ "ModuleRelativePath", "Public/LavaParticle.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALavaParticle_Statics::NewProp_Velocity = { "Velocity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ALavaParticle, Velocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Velocity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALavaParticle_Statics::NewProp_Velocity_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALavaParticle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALavaParticle_Statics::NewProp_Mass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALavaParticle_Statics::NewProp_SumForces,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALavaParticle_Statics::NewProp_Acceleration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALavaParticle_Statics::NewProp_Velocity,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALavaParticle_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALavaParticle>::IsAbstract,
@@ -97,9 +144,9 @@ void EmptyLinkFunctionForGeneratedCodeLavaParticle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ALavaParticle, ALavaParticle::StaticClass, TEXT("ALavaParticle"), &Z_Registration_Info_UClass_ALavaParticle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALavaParticle), 2903012387U) },
+		{ Z_Construct_UClass_ALavaParticle, ALavaParticle::StaticClass, TEXT("ALavaParticle"), &Z_Registration_Info_UClass_ALavaParticle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALavaParticle), 2302151201U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_4272144896(TEXT("/Script/MyDynamicLandscape"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_2971643366(TEXT("/Script/MyDynamicLandscape"),
 		Z_CompiledInDeferFile_FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

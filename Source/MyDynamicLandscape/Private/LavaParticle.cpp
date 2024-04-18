@@ -4,6 +4,7 @@
 #include "LavaParticle.h"
 #include "Components/StaticMeshComponent.h"
 
+
 // Sets default values
 ALavaParticle::ALavaParticle()
 {
@@ -11,20 +12,21 @@ ALavaParticle::ALavaParticle()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	//Mesh->AttachToComponent(this->RootComponent);
+	Mesh->AttachToComponent(this->RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	SetActorTickEnabled(false);
 }
+
+
 
 // Called when the game starts or when spawned
 void ALavaParticle::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void ALavaParticle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 

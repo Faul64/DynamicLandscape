@@ -1,22 +1,5 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" MyDynamicLandscapeEditor Win64 Development -Project="D:\Work\UE5\DynamicLandscape\MyDynamicLandscape.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\Faul\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Work\UE5\DynamicLandscape).
-  Invalidating makefile for MyDynamicLandscapeEditor (working set of source files changed)
-  Building MyDynamicLandscapeEditor...
-  Using Visual Studio 2019 14.29.30153 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from MyDynamicLandscape unity file: CreatorLavaFlows.cpp, LavaParticle.cpp
-  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
-    Executing up to 8 processes, one per physical core
-  Building 8 actions with 8 processes...
-  [1/8] Compile MyDynamicLandscape.init.gen.cpp
-  [2/8] Compile LavaParticle.cpp
-  [3/8] Compile LavaParticle.gen.cpp
-  [4/8] Compile CreatorLavaFlows.gen.cpp
-  [5/8] Compile CreatorLavaFlows.cpp
-  [6/8] Link UnrealEditor-MyDynamicLandscape.lib
-     Создается библиотека D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\UnrealEditor-MyDynamicLandscape.lib и объект D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\UnrealEditor-MyDynamicLandscape.exp
-  [7/8] Link UnrealEditor-MyDynamicLandscape.dll
-     Создается библиотека D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\UnrealEditor-MyDynamicLandscape.suppressed.lib и объект D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\UnrealEditor-MyDynamicLandscape.suppressed.exp
-  [8/8] WriteMetadata MyDynamicLandscapeEditor.target
-  Total time in Parallel executor: 1.55 seconds
-  Total execution time: 4.01 seconds
+  Target is up to date
+  Total execution time: 0.57 seconds

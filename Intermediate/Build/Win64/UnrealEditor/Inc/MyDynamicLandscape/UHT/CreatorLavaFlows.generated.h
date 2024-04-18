@@ -9,14 +9,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ALavaParticle;
 #ifdef MYDYNAMICLANDSCAPE_CreatorLavaFlows_generated_h
 #error "CreatorLavaFlows.generated.h already included, missing '#pragma once' in CreatorLavaFlows.h"
 #endif
 #define MYDYNAMICLANDSCAPE_CreatorLavaFlows_generated_h
 
 #define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_SPARSE_DATA
-#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_RPC_WRAPPERS
-#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpdateLocation); \
+	DECLARE_FUNCTION(execUpdateVelocity); \
+	DECLARE_FUNCTION(execUpdateAcceleration);
+
+
+#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpdateLocation); \
+	DECLARE_FUNCTION(execUpdateVelocity); \
+	DECLARE_FUNCTION(execUpdateAcceleration);
+
+
 #define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_ACCESSORS
 #define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_CreatorLavaFlows_h_16_INCLASS_NO_PURE_DECLS \
 private: \
