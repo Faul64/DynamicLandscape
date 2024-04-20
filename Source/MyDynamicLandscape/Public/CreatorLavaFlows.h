@@ -31,7 +31,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
 		FVector2D ParticleMassRange		{ 1.0, 2.0 };
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
-		FVector2D StartPulsePowerRange	{ 1.0, 2.0 };
+		FVector2D StartVelocityRange	{ 10.0, 20.0 };
 
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Starting System Parameters")
 	//	double NumberParticles = 5.0;

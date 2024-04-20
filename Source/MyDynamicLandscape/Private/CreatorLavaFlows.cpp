@@ -42,6 +42,8 @@ void ACreatorLavaFlows::UpdateAcceleration(ALavaParticle* Particle){
 
 void ACreatorLavaFlows::UpdateVelocity(ALavaParticle* Particle, float DeltaTime){
 	//v1 Euler's method 
+//TODO:  min/max Velocity !
+	//
 	Particle->Velocity += (Particle->Acceleration * DeltaTime);
 
 	//v2 Werle method
