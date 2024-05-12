@@ -281,10 +281,7 @@ D:\Work\UE5\DynamicLandscape\Source\MyDynamicLandscape\Private\CreatorLavaFlows.
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\MyDynamicLandscapeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\Definitions.MyDynamicLandscape.h"
-/Yu"D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\MyDynamicLandscapeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\MyDynamicLandscapeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/FI"D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\Definitions.h"
 /Fo"D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\CreatorLavaFlows.cpp.obj"
 /sourceDependencies D:\Work\UE5\DynamicLandscape\Intermediate\Build\Win64\UnrealEditor\Development\MyDynamicLandscape\CreatorLavaFlows.cpp.dep.json
 /Zc:inline

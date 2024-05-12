@@ -15,8 +15,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MYDYNAMICLANDSCAPE_LavaParticle_generated_h
 
 #define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_SPARSE_DATA
-#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_RPC_WRAPPERS
-#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetMainVelocity); \
+	DECLARE_FUNCTION(execSetMainMass); \
+	DECLARE_FUNCTION(execSetBeginParameters); \
+	DECLARE_FUNCTION(execGetMainVelocity); \
+	DECLARE_FUNCTION(execGetMainMass); \
+	DECLARE_FUNCTION(execMovement); \
+	DECLARE_FUNCTION(execCalculateVelocity); \
+	DECLARE_FUNCTION(execCalculateAcceleration);
+
+
+#define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetMainVelocity); \
+	DECLARE_FUNCTION(execSetMainMass); \
+	DECLARE_FUNCTION(execSetBeginParameters); \
+	DECLARE_FUNCTION(execGetMainVelocity); \
+	DECLARE_FUNCTION(execGetMainMass); \
+	DECLARE_FUNCTION(execMovement); \
+	DECLARE_FUNCTION(execCalculateVelocity); \
+	DECLARE_FUNCTION(execCalculateAcceleration);
+
+
 #define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_ACCESSORS
 #define FID_Work_UE5_DynamicLandscape_Source_MyDynamicLandscape_Public_LavaParticle_h_14_INCLASS_NO_PURE_DECLS \
 private: \
