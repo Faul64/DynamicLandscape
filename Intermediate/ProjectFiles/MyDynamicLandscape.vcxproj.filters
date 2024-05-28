@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\MyDynamicLandscape.uproject" />
     <Filter Include="Source">
@@ -8,11 +8,11 @@
     <None Include="..\..\Source\MyDynamicLandscape.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\Source\MyDynamicLandscapeEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
     <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\clean.bat" />
+    <None Include="..\..\MyDynamicLandscape.sln.DotSettings.user" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>

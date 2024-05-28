@@ -1,8 +1,7 @@
 {
 	"SourceFiles": [
 		"D:\\Work\\UE5\\DynamicLandscape\\Source\\MyDynamicLandscape\\MyDynamicLandscape.Build.cs",
-		"D:\\Work\\UE5\\DynamicLandscape\\Source\\MyDynamicLandscape.Target.cs",
-		"D:\\Work\\UE5\\DynamicLandscape\\Source\\MyDynamicLandscapeEditor.Target.cs"
+		"D:\\Work\\UE5\\DynamicLandscape\\Source\\MyDynamicLandscape.Target.cs"
 	],
 	"EngineVersion": "5.1.1"
 }
