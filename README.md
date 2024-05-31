@@ -15,6 +15,6 @@
 
 
 ## Дополнительно
-Видео демонстрация работы на [youtube](https://youtu.be/Fy5oCQ-wLWM?si=e3XnNMIW73kIsa1H)
+Видео демонстрация работы на [youtube](https://youtu.be/68GYIT-cvf8)
 
 Автор: Шелепьев Дмитрий
